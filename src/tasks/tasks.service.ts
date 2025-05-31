@@ -6,7 +6,7 @@ export class TasksService {
         return 'Retorna todas las tareas';
     }
 
-    createTask(): string {
-        return 'Tarea creada';
+    createTask(task: any): string {
+        return task;
     }
 }

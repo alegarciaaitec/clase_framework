@@ -1,0 +1,10 @@
+GET https://claseframework-e5od--3000--55edb8f4.local-credentialless.webcontainer.io/tasks
+
+###
+
+POST https://claseframework-e5od--3000--55edb8f4.local-credentialless.webcontainer.io/tasks
+content-type: application/json
+
+{
+    "name": "alex"
+}
