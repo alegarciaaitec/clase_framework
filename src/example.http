@@ -1,8 +1,8 @@
-GET https://claseframework-e5od--3000--55edb8f4.local-credentialless.webcontainer.io/tasks
+GET https://claseframework-e5od--3000--6ba59070.local-corp.webcontainer.io/tasks
 
 ###
 
-POST https://claseframework-e5od--3000--55edb8f4.local-credentialless.webcontainer.io/tasks
+POST https://claseframework-e5od--3000--6ba59070.local-corp.webcontainer.io/tasks
 content-type: application/json
 
 {

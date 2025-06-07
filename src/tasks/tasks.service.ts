@@ -7,6 +7,7 @@ export class TasksService {
     }
 
     createTask(task: any): string {
+        task.name = 'pablito';
         return task;
     }
 }
