@@ -1,5 +1,4 @@
 GET https://claseframework-e5od--3000--6ba59070.local-corp.webcontainer.io/tasks
-
 ###
 
 POST https://claseframework-e5od--3000--6ba59070.local-corp.webcontainer.io/tasks
@@ -8,3 +7,17 @@ content-type: application/json
 {
     "name": "alex"
 }
+###
+
+GET https://claseframework-e5od--3000--2e6e5e13.local-corp.webcontainer.io/tasks/a
+###
+GET https://claseframework-e5od--3000--2e6e5e13.local-corp.webcontainer.io/tasks/especifico?id=a
+
+HTTP/1.1 400  - Bad Request
+access-control-allow-origin: *
+connection: close
+content-length: 58
+content-type: application/json; charset=utf-8
+date: Sat, 14 Jun 2025 14:27:51 GMT
+etag: W/"3a-AN7io3EKV0fb06YZpXkmUlEKm48"
+x-powered-by: Express
